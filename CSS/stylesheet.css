@@ -1,0 +1,41 @@
+header {
+  font-size: 2em;
+  color: blue;
+  text-align: center;
+}
+
+body {
+  background-color: #42c2f4;
+}
+
+img {
+  width: 100%;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 12px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: blue
+  text-align: center;
+}
+
+ul.topnav li {
+  float:left;
+}
+
+ul.topnav li a {
+  display: inline-block;
+  color: blue;
+  margin: 20px;
+}
+
+main {
+  color: grey
+}
+
+h1 {
+  color: blue
+
+}
