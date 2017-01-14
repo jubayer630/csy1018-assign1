@@ -18,23 +18,27 @@
 
       </ul>
     </div>
-    <img class = "img/img1" src="img/img1.jpg" >
-<main>
+<footer>
+
   <text>
     <h1>
-WELCOME
+  CONTACT ME
     </h1>
-  Hi my name is Jubayer and this is my bio. On here you can explore the different pages and find out more about me.
-  I have different pages which you can view such as the CV page which is about how I've performed academically but
-  also my previous employment history and skills that I have picked which I can implement in different areas of studies
-  and work. I have also  bio page which gives you a better insight about myself and who i am as a person. lastly you can view
-  my contacts page to leave me any message or to get in contact with me
+For any questions or enquries feel free to leave me a message but also your name and email so I can get back to you
   </text>
-  <img class = "img/img2" src="img/img2.jpg" >
-</main>
 
-  </body>
-  <footer>
-
-  </footer>
-</html>
+  <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+  	<div class="row">
+  		<label for="name">Your name:</label><br />
+  		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+  	</div>
+  	<div class="row">
+  		<label for="email">Your email:</label><br />
+  		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+  	</div>
+  	<div class="row">
+  		<label for="message">Your message:</label><br />
+  		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+  	</div>
+  	<input id="submit_button" type="submit" value="Send email" />
+  </form>
