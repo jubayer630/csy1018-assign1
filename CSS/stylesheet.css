@@ -32,10 +32,13 @@ ul.topnav li a {
 }
 
 main {
-  color: grey
+  color: black
 }
 
 h1 {
   color: blue
 
+}
+h2 {
+  color: grey
 }
